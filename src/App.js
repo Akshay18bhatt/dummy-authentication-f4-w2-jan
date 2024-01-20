@@ -42,7 +42,7 @@ const App = ()=>{
                 <SignIn displayData={displayData}/>
             </div>
             <div className="display-data hide">
-                {LsData && (<div className="display-data"> <div><img src={LsData.image} alt="userImage"></img></div>
+                {LsData && (<div className="display-data"> <div className="imgDisplay"><img src={LsData.image} alt="userImage"></img></div>
                 <div>
                     <p>ID:{LsData.id}</p>
                     <p>First Name: {LsData.firstName}</p>

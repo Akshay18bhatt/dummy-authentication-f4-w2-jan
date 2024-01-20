@@ -83,13 +83,25 @@
 .display-data{
     display: flex;
     gap: 50px;
+    background-color: antiquewhite;
     
 }
 .display-data p{
-    padding: 5px;
-    margin: 5px;
+    padding: 8px;
+    margin: 3px;
     background-color: #ededed;
     border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.display-data img{
+    border-radius: 50%;
+    background-color: rgb(227, 177, 12);
+}
+.imgDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hide{
     display: none;
